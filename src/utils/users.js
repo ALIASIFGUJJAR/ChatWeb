@@ -52,12 +52,12 @@ const getUserInRoom = (room) =>{
     room = room.trim().toLowerCase()
     return users.filter((user)=> user.room === room)
 }
-
+//exporting function
 module.exports={
     addUser,
     removeUser,
     getUser,
     getUserInRoom
 }
-,
+
 
